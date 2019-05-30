@@ -1,0 +1,12 @@
+{
+  "name": "trafficim",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "mo-js": "^0.288.2",
+    "mojs-player": "^0.43.16",
+    "phaser": "^3.17.0"
+  }
+}
