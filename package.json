@@ -8,5 +8,9 @@
     "mo-js": "^0.288.2",
     "mojs-player": "^0.43.16",
     "phaser": "^3.17.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
   }
 }
