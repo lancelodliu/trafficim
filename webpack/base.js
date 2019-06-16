@@ -16,14 +16,6 @@ module.exports = {
         }
       },
       {
-        test: /\.tsx?$/,
-        include: [
-          path.resolve(__dirname, "./src")
-        ],
-        exclude: /(node_modules|dist)/,
-        use: ["babel-loader", "ts-loader"]
-      },
-      {
         test: [/\.vert$/, /\.frag$/],
         use: "raw-loader"
       },
@@ -35,7 +27,7 @@ module.exports = {
   },
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
-    extensions: [".ts", ".tsx", ".js"]
+    extensions: [".js"]
   },
   devServer: {
     proxy: { // proxy URLs to backend development server
