@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/preset-env": "^7.4.5",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "matter-js": "^0.14.2",
     "typescript": "^3.5.2"
   },
